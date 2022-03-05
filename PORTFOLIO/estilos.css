@@ -1,0 +1,412 @@
+@media all and (min-width: 1136px) {  
+
+body{ 
+    width: 1440;
+    left: 0;
+    top: 0;
+    background: #f5f5f5; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;    
+    line-height: 19px;
+    position: absolute; 
+}
+/*header*/
+.headerPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    padding: 32px 0 32px 0;
+    width: 1136px;
+    height: 88px;
+    left: 152px;
+    right: 152px;
+    top: 0px;
+    position: relative;
+    background: yellow;
+}
+.headerPrincipal-container{
+    background: greenyellow;
+    width: 1136px;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;      
+}
+.headerPrincipal-container-titulo{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    top: 32px;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.headerPrincipal-container-titulo-vector{
+    position: static;  
+    width: 70px;
+    height: 70px;
+    float: left;    
+}
+.headerPrincipal-container-titulo-texto{
+    left: 12px;
+    width: auto;   
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;    
+    line-height: 19px;    
+}
+.headerPrincipal-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0;
+    left: 550px;
+    height: 18px;
+    position: absolute;   
+}
+.headerPrincipal-nav li{
+    display: inline;
+    align-items: flex-end;
+    margin:  0 0 0 15px;  
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;    
+    line-height: 19px;    
+}
+.sobre-mi{
+    position: static;
+    width: 82px;
+    height: 19px;
+    left: 0px;
+    top: 0px;    
+}
+.skills{
+    position: static;
+    width: 40px;
+    height: 19px;
+    left: 114px;
+    top: 0px;   
+}
+.hobbies{
+    position: static;
+    width: 63px;
+    height: 19px;
+    left: 186px;
+    top: 0px;   
+}
+.formacion{
+    position: static;
+    width: 76px;
+    height: 19px;
+    left: 281px;
+    top: 0px;   
+}
+.proyectos{
+    position: static;
+    width: 62px;
+    height: 19px;
+    left: 389px;
+    top: 0px;   
+}
+.contacto{
+    position: static;
+    width: 159px;
+    height: 19px;
+    left: 483px;
+    top: 0px;   
+}
+
+/*hero*/
+.hero{
+   display: flex;
+   flex-direction: row; 
+   width: 1136px;
+   height: 368px;
+   top: 120px;
+   left: 152px;
+   justify-content: space-between;
+   position: absolute;
+   padding: 0px;
+   background: pink;
+}
+.hero-topo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 246px;
+    left: 0px;
+    top: 61px;
+}
+.hero-topo-titulo{
+    width: auto;
+    height: auto;
+    left: 0;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;    
+    line-height: 61.05px; 
+    color: #464646;
+
+}
+#soy-formada{
+    width: auto;
+    height: auto;
+    left: 0;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;    
+    line-height: 26px; 
+    color: #464646;
+    margin-top: 32px;
+}
+.hero-topo-imagen{
+    
+    width: 368px;
+    height: 368px;
+    left: 768px;
+    top: 0;    
+    margin: 0%;
+    align-items: flex-end;
+    float: right;
+}
+.links{
+    width: 467px;
+    height: 24px;
+    left: 0;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.hero-topo-link{
+    width: 121px;
+
+}
+/*Sobre mi*/
+.frame6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EAF2FD;
+    position: absolute;
+    width: 1440px;
+    height: 383px;
+    left: 0;
+    top: 520px;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0;
+    position: relative;
+    width: 1136px;    
+    top: 64px;
+}
+.sobre-mi{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;    
+    line-height: 38px;
+    color: #464646;
+    position: relative;
+    width: 751px;
+}
+#sobre-lorem{
+    width: 751px;
+    left: 0;
+    top: 54px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500px; 
+    font-size: 16px;   
+    line-height: 19px;    
+}
+.sobre-imagen{
+    top: 73px;
+    position: relative;
+}
+
+/*skills & hobbies*/
+.skills-y-hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    padding: 0;
+    width: 1440px;
+    left: 0;
+    top: 935px;
+}
+.area-de-skills, .area-de-hobbies, .area-de-referencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    position: static;
+    width: 1136px;
+    left: 152px;
+    top: 0;
+}
+.area-de-hobbies{
+    margin-left: 152px;
+}
+.area-de-skills-titulo, .area-de-hobbies-titulo, .area-de-referencias-titulo{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 32px;   
+    line-height: 38px; 
+    top: 0;
+    width: 1440px;
+    text-align: center;
+}
+.area-de-skills-skill, .area-de-hobbies-skill, .area-de-referencias-skill{
+    margin-left:152px;
+    margin-right: 152px;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    justify-content: space-between;
+    background: #008000;
+    width: 1136px;
+    height: auto;    
+}
+.area-de-skills-skill-1, .area-de-hobbies-skill-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    width: 165px;
+    height: 174px;
+    background: #ffffff;       
+}
+.skill-img{
+    width: 24px;
+    height: 35.54px;
+    margin-left: 16px;
+    top: 94px;
+    color: #2A7AE4;
+    position: static;
+}
+.skill-titulo{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 16px;   
+    line-height: 19px; 
+    margin-left: 16px;
+    margin-top: 32px;
+}
+.area-de-referencias{
+    margin-left: 152px;
+    background: #008000;
+}
+.area-de-referencias-skill-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    width: 368px;
+    height: 347px;
+    margin-top: 0%;
+    background: #ffffff;    
+}
+.experiencia-item-img{
+    width: 192px;
+    height: 130px;
+    margin-left: 88px;
+    margin-top: 78px;
+    color: #2A7AE4;
+    position: static;
+}
+.experiencia-item-titulo{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 22px;   
+    line-height: 26px; 
+    margin-left: 16px;
+    margin-top: 32px;    
+}
+.experiencia-item-texto{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 16px;   
+    line-height: 19px;
+    margin-left: 16px;
+    margin-top: 6px;   
+}
+
+/*Area Proyectos*/
+.area-proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    padding: 0;
+    width: 1440px;
+    left: 0;
+    top: 1707px;   
+}
+.area-proyectos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    width: 1440px; 
+    margin-top: 70px; 
+    background: #2A7AE4;
+}
+.area-proyectos-container-titulo{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 32px;   
+    line-height: 38px;
+    width: 1136px;   
+    text-align: center;
+}
+.area-proyectos-container-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    width: 1136px;   
+    margin-top: 70px;
+    background: greenyellow;
+}
+
+.area-proyectos-container-items-experiencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+    width: 1136px;
+    height: 406px;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+
+}
