@@ -1,61 +1,55 @@
-@media all and (min-width: 1136px) {  
-
 body{ 
-    width: 1440;
-    left: 0;
-    top: 0;
-    background: #f5f5f5; 
     display: flex;
-    flex-direction: column; 
-    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background: #f5f5f5; 
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;    
-    line-height: 19px;
-    position: absolute; 
+    line-height: 19px;  
 }
 /*header*/
 .headerPrincipal{
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
-    padding: 32px 0 32px 0;
-    width: 1136px;
-    height: 88px;
-    left: 152px;
-    right: 152px;
+    padding: 1% 0 1% 0;
+    width: 84%;
+    margin: 0%;
+    left: 11.1%;
     top: 0px;
-    position: relative;
+    position: absolute;
     background: yellow;
 }
 .headerPrincipal-container{
     background: greenyellow;
-    width: 1136px;
-    height: 88px;
+    width: 84vw;
+    height: auto;
+    padding: 1%;
+    margin: 0%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;      
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between; 
+    
 }
 .headerPrincipal-container-titulo{
     background: white;
     display: flex;
     flex-direction: row;
-    width: 400px;
-    top: 32px;
+    width: 38%;
     align-items: center;
-    justify-content: space-around;   
+    justify-content: flex-start;   
 }
 
 .headerPrincipal-container-titulo-vector{
     position: static;  
     width: 70px;
     height: 70px;
-    float: left;    
+    float: left; 
+    padding: 0 8px 0 0;  
 }
-.headerPrincipal-container-titulo-texto{
-    left: 12px;
-    width: auto;   
+.headerPrincipal-container-titulo-texto{  
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -68,88 +62,46 @@ body{
     justify-content: space-between;
     align-items: flex-end;
     padding: 0;
-    left: 550px;
+    left: auto;
+
+
     height: 18px;
-    position: absolute;   
+  
 }
 .headerPrincipal-nav li{
-    display: inline;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     align-items: flex-end;
-    margin:  0 0 0 15px;  
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;    
     line-height: 19px;    
 }
-.sobre-mi{
-    position: static;
-    width: 82px;
-    height: 19px;
-    left: 0px;
-    top: 0px;    
-}
-.skills{
-    position: static;
-    width: 40px;
-    height: 19px;
-    left: 114px;
-    top: 0px;   
-}
-.hobbies{
-    position: static;
-    width: 63px;
-    height: 19px;
-    left: 186px;
-    top: 0px;   
-}
-.formacion{
-    position: static;
-    width: 76px;
-    height: 19px;
-    left: 281px;
-    top: 0px;   
-}
-.proyectos{
-    position: static;
-    width: 62px;
-    height: 19px;
-    left: 389px;
-    top: 0px;   
-}
-.contacto{
-    position: static;
-    width: 159px;
-    height: 19px;
-    left: 483px;
-    top: 0px;   
-}
-
 /*hero*/
 .hero{
    display: flex;
    flex-direction: row; 
-   width: 1136px;
-   height: 368px;
-   top: 120px;
-   left: 152px;
+   width: 81vw;
+   top: 120px;                  /**/
+   margin-left: 11.1%;
    justify-content: space-between;
-   position: absolute;
-   padding: 0px;
+   position: absolute;          /**/
+   padding: 1%;
    background: pink;
+   float: right;
 }
 .hero-topo{
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 246px;
     left: 0px;
     top: 61px;
 }
 .hero-topo-titulo{
     width: auto;
     height: auto;
-    left: 0;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -159,39 +111,26 @@ body{
 
 }
 #soy-formada{
-    width: auto;
-    height: auto;
-    left: 0;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;    
     line-height: 26px; 
     color: #464646;
-    margin-top: 32px;
 }
-.hero-topo-imagen{
-    
-    width: 368px;
-    height: 368px;
-    left: 768px;
-    top: 0;    
+.hero-topo-imagen{   
+    width: 40vw;
+    height: 60vh;   
     margin: 0%;
-    align-items: flex-end;
-    float: right;
 }
 .links{
-    width: 467px;
-    height: 24px;
-    left: 0;
-    margin-top: 32px;
+    width: 60%;          /**/
+    margin-top: 2rem;
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;    
 }
 .hero-topo-link{
-    width: 121px;
-
+    width: 30%;
 }
 /*Sobre mi*/
 .frame6{
@@ -199,22 +138,22 @@ body{
     flex-direction: column;
     align-items: center;
     background: #EAF2FD;
+    padding: 1%;
     position: absolute;
-    width: 1440px;
-    height: 383px;
-    left: 0;
-    top: 520px;
+    width: 81vw;
+    height: auto;
+    margin: 0%;
+    left: 11.1%;
+    top: 480px;         /**/
 }
 .sobre{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0px;
+    padding: 1%;
     margin: 0;
-    position: relative;
-    width: 1136px;    
-    top: 64px;
+    width: 81vw;    
 }
 .sobre-mi{
     font-family: 'Raleway', sans-serif;
@@ -223,14 +162,9 @@ body{
     font-size: 32px;    
     line-height: 38px;
     color: #464646;
-    position: relative;
-    width: 751px;
 }
 #sobre-lorem{
-    width: 751px;
-    left: 0;
-    top: 54px;
-    position: relative;
+    width: 68%;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500px; 
@@ -238,33 +172,29 @@ body{
     line-height: 19px;    
 }
 .sobre-imagen{
-    top: 73px;
-    position: relative;
+    top: 1.8em;
+    position: relative;         /**/
 }
 
 /*skills & hobbies*/
 .skills-y-hobbies{
+    background: #008000;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    padding: 0;
-    width: 1440px;
-    left: 0;
-    top: 935px;
+    position: absolute;         /**/
+    width: 84%;
+    left: 11.1%;
+    padding: 1% 0 0 0;
+    top: 797px;                 /**/
 }
 .area-de-skills, .area-de-hobbies, .area-de-referencias{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
-    position: static;
-    width: 1136px;
-    left: 152px;
-    top: 0;
-}
-.area-de-hobbies{
-    margin-left: 152px;
+    padding: 0%;
+    width: 81vw;
+    margin-left: 0%;
 }
 .area-de-skills-titulo, .area-de-hobbies-titulo, .area-de-referencias-titulo{
     font-family: 'Raleway', sans-serif;
@@ -272,90 +202,81 @@ body{
     font-weight: bold; 
     font-size: 32px;   
     line-height: 38px; 
-    top: 0;
-    width: 1440px;
     text-align: center;
+    width: 84%;
+    margin-right: 16.7%;
+    margin-top: 1em;
 }
 .area-de-skills-skill, .area-de-hobbies-skill, .area-de-referencias-skill{
-    margin-left:152px;
-    margin-right: 152px;
-    top: 70px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 0;
     justify-content: space-between;
     background: #008000;
-    width: 1136px;
+    width: 81vw;
     height: auto;    
 }
+
+
 .area-de-skills-skill-1, .area-de-hobbies-skill-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0px;
-    width: 165px;
-    height: 174px;
+    width: 15%;
+    height: 28vh;      /**/
     background: #ffffff;       
 }
 .skill-img{
     width: 24px;
     height: 35.54px;
-    margin-left: 16px;
-    top: 94px;
+    margin-left: 25%;
     color: #2A7AE4;
-    position: static;
 }
 .skill-titulo{
+    margin-top: 1em;
+    margin-left: 25%;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold; 
     font-size: 16px;   
     line-height: 19px; 
-    margin-left: 16px;
-    margin-top: 32px;
-}
-.area-de-referencias{
-    margin-left: 152px;
-    background: #008000;
 }
 .area-de-referencias-skill-1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0px;
-    width: 368px;
-    height: 347px;
+    width: 30%;
+    height: 50%;
     margin-top: 0%;
     background: #ffffff;    
 }
 .experiencia-item-img{
-    width: 192px;
-    height: 130px;
-    margin-left: 88px;
-    margin-top: 78px;
+    width: 80%;
+    margin-top: 3em;
     color: #2A7AE4;
-    position: static;
 }
+.experiencia-item-img-1{
+    width: 40%;
+    margin-bottom: 1.54em;
+    margin-top: 3em;
+    color: #2A7AE4;
+}
+
 .experiencia-item-titulo{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold; 
     font-size: 22px;   
-    line-height: 26px; 
-    margin-left: 16px;
-    margin-top: 32px;    
+    line-height: 26px;    
 }
 .experiencia-item-texto{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500; 
     font-size: 16px;   
-    line-height: 19px;
-    margin-left: 16px;
-    margin-top: 6px;   
+    line-height: 19px;  
 }
 
 /*Area Proyectos*/
@@ -365,48 +286,265 @@ body{
     align-items: center;
     position: absolute;
     padding: 0;
-    width: 1440px;
-    left: 0;
-    top: 1707px;   
+    width: 84%;
+    left:11.1%;
+    top:2542px;  
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background: palevioletred;  /**/
 }
 .area-proyectos-container{
+    background: #2A7AE4;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0%;
-    width: 1440px; 
-    margin-top: 70px; 
-    background: #2A7AE4;
+    width: 84vw;
+    margin: 11.1%;
+    padding: 1%;
+
 }
-.area-proyectos-container-titulo{
+.area-proyectos-titulo{
+    background: #464646;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 32px;   
+    line-height: 38px;    
+}
+.area-proyectos-items{
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.area-proyecto-experiencia-1{
+    background: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 84%;
+    margin-top: 0.5em;
+}
+.rectangulo-1{
+    background-image: url("img-encriptador.png");
+    width: 65%;
+    height: 25em;
+    margin-top: 0;
+    margin-right: 0;
+    border-radius: 0%;
+}
+.area-proyecto-experiencia-1-caja{    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0%;
+    width: 35%;
+    margin: 10% 0 0 70%;
+    vertical-align: middle;
+    position: absolute;    /**/
+}
+.cajita-titulo{   
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 22px;   
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.cajita-text{    
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 16px;   
+    line-height: 19px;
+    margin-bottom: 16px;
+}
+.cajita-bottom{    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.cajita-bottom-bot{
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 16px;   
+    line-height: 19px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5em;
+    width: 6em;
+    height: 2.5em;
+    margin: 1em 0.5em 0 0;
+}
+.area-proyecto-experiencia-2{
+    background: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    justify-content: space-between;
+    width: 84%;
+    margin-left: 2%;
+    margin-top: 0.5em;
+}
+.rectangulo-2{
+    background: palevioletred;
+    background-image: url("ahorcado.png");
+    width: 75%;
+    height: 25em;
+    margin: 0 0 0 37.5%;
+}
+.area-proyecto-experiencia-2-caja{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0%;
+    width: 30%x;
+    margin: 10% 0 0 0px;
+    vertical-align: middle;
+    position: absolute;
+}
+.rectangulo-3{
+    background-image: url("img-encriptador.png");
+    width: 65%;
+    height: 25em;
+    margin: 0;
+}
+.rectangulo-4{
+    background: palevioletred;
+    background-image: url("ahorcado.png");
+    width: 75%;
+    height: 25em;
+    margin: 0 0 0 37.5%;
+}
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0 1% 0;
+    width: 100%;
+    margin: 0%;
+    top: 5000px;
+    position: absolute;
+    background: yellow;
+}
+.contacto{
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 84vw;
+    height: auto;
+    left: 11.1%;
+    top: 4520px;
+    
+    background: #008000;            /**/
+}
+.contacto-container{
+    background: #803a00;
+    display: flex;
+    flex-direction: row;
+    width: 84vw;
+}
+.contacto-rectangulo{
+    background-image: url("imagen-contacto.png");
+    width: 40.5%;
+    margin-left: 0;
+    top: 65.5px;
+    padding: 0;
+}
+.formulario{
+    background: #007180;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0%;
+    width: 59.5%;
+    left: 42%;  
+}
+.formulario-topo{
+    background: #007180;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    margin-bottom: 1em;
+}
+.formulario-titulo{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold; 
     font-size: 32px;   
     line-height: 38px;
-    width: 1136px;   
-    text-align: center;
 }
-.area-proyectos-container-items{
+#formulario-texto{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 16px;   
+    line-height: 19px;   
+}
+.campo{
+    background: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0%;
-    width: 1136px;   
-    margin-top: 70px;
-    background: greenyellow;
+    align-items: flex-start;
+    width: auto;
 }
-
-.area-proyectos-container-items-experiencia{
+input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 16px;
+    padding: 0%;
+    width: 100%;
+    height: 3em;
+    margin-left: 10%;
+    margin-bottom: 0.5em;
+}
+textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0%;
+    width: 100%;
+    height: 6em;
+    margin-left: 10%;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.enviar{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 16px;   
+    line-height: 19px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0%;
-    width: 1136px;
-    height: 406px;
-    margin-left: 0%;
-    margin-top: 0%;
+    padding: 0.5em;
+    width: 6em;
+    height: 2.5em;
+    margin: 1em 0.5em 0 10%;
+    background: #2A7AE4;
 }
-
-
+.rodape{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 16px;   
+    line-height: 19px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin-left: 140%;
+    width: 100%;
+    height: 5em;
+    margin-top: 4900px;
+    background: #ffffff;
 }
